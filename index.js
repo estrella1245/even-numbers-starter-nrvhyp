@@ -15,7 +15,7 @@ console.log(n);
  */
 let result = '';
 
-for(let i = 0; i < parseInt(n); i++)
+for(let i = 0; i <= parseInt(n); i++)
 {
     if(i % 2 == 0) 
     {
