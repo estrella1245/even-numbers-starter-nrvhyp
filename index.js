@@ -19,7 +19,12 @@ for(let i = 0; i <= parseInt(n); i++)
 {
     if(i % 2 == 0) 
     {
-        result += `${i},`;
+
+        result += i;
+        if (i < n - 1)
+        {
+          result += ',';
+        }
     }
 }
 
